@@ -12,3 +12,8 @@
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
+
+/* Remove any background color from header area */
+#body-bg {
+    display: none;
+}
