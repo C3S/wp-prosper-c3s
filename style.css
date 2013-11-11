@@ -15,5 +15,5 @@
 
 /* Remove any background color from header area */
 #body-bg {
-    background: none;
+    display: none;
 }
