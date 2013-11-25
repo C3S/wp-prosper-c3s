@@ -10,10 +10,46 @@
 
 @import url("../wp-prosper/style.css");
 
+
 /* =Theme customization starts here
 -------------------------------------------------------------- */
+
+/* Import Font Signika */
+@import url(http://fonts.googleapis.com/css?family=Signika:400);
 
 /* Remove any background color from header area */
 #body-bg {
     display: none;
+}
+
+
+/* Change Font to Signika*/
+/* Header */
+h1, h2, h3, h4{
+	font-family: Signika, Helvetica, Arial, sans-serif;
+	letter-spacing: 0em;
+}
+
+/* Menus */
+#topnav, #catnav{
+	font-family: Signika, Helvetica, Arial, sans-serif;
+	letter-spacing: 0em;
+	font-weight: bold;
+}
+
+/* Sidebar Colors */
+#sidebar{
+	background: #F6F9F2;
+}
+
+#sidebar .widget{
+	background: none;
+	border: none;
+}
+
+
+#sidebar .widget .widget-wrap {
+	background: #e0edd4;
+	border: none;
+	border: none;
 }
