@@ -53,3 +53,8 @@ h1, h2, h3, h4{
 	border: none;
 	border: none;
 }
+
+/* Remove White Background from WPML Language Links in sidebar */
+#lang_sel_list ul a, #lang_sel_list_list ul a:visited {
+	background: none;
+}
