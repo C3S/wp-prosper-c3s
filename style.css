@@ -15,7 +15,7 @@
 -------------------------------------------------------------- */
 
 /* Import Font Signika */
-@import url(http://fonts.googleapis.com/css?family=Signika:400);
+@import url(https://fonts.googleapis.com/css?family=Signika:400);
 
 /* Remove any background color from header area */
 #body-bg {
@@ -37,6 +37,10 @@ h1, h2, h3, h4{
 	font-weight: bold;
 }
 
+#catnav ul a {
+    border-right: none;
+}
+
 /* Sidebar Colors */
 #sidebar{
 	background: #F6F9F2;
@@ -54,7 +58,52 @@ h1, h2, h3, h4{
 	border: none;
 }
 
+#footer-widgets{
+	background: #e0edd4;
+}
+
 /* Remove White Background from WPML Language Links in sidebar */
 #lang_sel_list ul a, #lang_sel_list_list ul a:visited {
 	background: none;
 }
+
+/* No Padding-top (was 30px) */
+#header {
+    padding-top: 0;
+}
+
+/* HallOfFame Columns */
+.supporter_img{
+	float: left;
+	text-align: center;
+	margin-bottom: 10px;
+	font-weight: bold;
+	height: 140px;
+	width: 140px;
+}
+
+.supporter_img img{
+	display: block; 
+	margin: 0 auto 10px;  
+	float: none; 
+	clear: both;
+}
+
+.supporter_link, .supporter_name{
+	position: relative;
+	float: left;
+	text-align:center;
+	margin: 20px 0px;
+	padding: 0 10px;
+	font-weight: bold;
+	border-right: 2px dotted #666;
+}
+
+hr{
+	color: 	#666;
+	background: #666;
+	border: 0;
+	height: 1px;
+	clear: both;
+}
+	
