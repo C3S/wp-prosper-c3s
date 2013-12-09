@@ -106,4 +106,8 @@ hr{
 	height: 1px;
 	clear: both;
 }
-	
+
+/* Remove social icons in footer */
+#footer .sub-icons {
+    display: none;
+}
