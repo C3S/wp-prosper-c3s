@@ -29,8 +29,6 @@
 
 	<div class="limit clearfix">
 
-		&copy;  <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. <?php _e("All rights reserved.", "solostream"); ?> <a href="http://www.solostream.com"><?php _e("Premium WordPress Themes", "solostream"); ?></a>.
-
 	</div>
 
 </div>
