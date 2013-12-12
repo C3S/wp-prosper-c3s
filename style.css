@@ -107,10 +107,6 @@ hr{
 	clear: both;
 }
 
-/* Remove social icons in footer */
-#footer .sub-icons {
-    display: none;
-}
 #related {
     display: none;
 }
