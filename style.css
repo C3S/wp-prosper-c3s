@@ -110,3 +110,6 @@ hr{
 #related {
     display: none;
 }
+.flexslider .meta {
+    display: none;
+}
