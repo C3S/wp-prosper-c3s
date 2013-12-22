@@ -49,7 +49,7 @@ $do_not_duplicate[] = $post->ID; ?>
 			<?php } ?>
 
 <?php /*====== Include the featured vids for C3S =======*/ ?>
-<?php include (TEMPLATEPATH . '/featured-vids.php'); ?>
+<?php include ('featured-vids.php'); ?>
 
 
 			<?php /*-- [ CATEGORY BOX 2 ] -- */ ?>
