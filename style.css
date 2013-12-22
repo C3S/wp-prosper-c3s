@@ -113,3 +113,9 @@ hr{
 .flexslider .meta {
     display: none;
 }
+table {
+    width: 100%;
+}
+table h5 {
+    text-align: inherit;
+}
