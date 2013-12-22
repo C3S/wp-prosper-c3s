@@ -7,7 +7,7 @@
 			<?php if ( get_option('solostream_cat_box_1') !== 'Select a Category Slug' ) { ?>
 
 			<div class="cat-posts">
-				<h2 class="feat-title"><span><a href="<?php echo esc_url(get_category_link(get_term_by('slug',get_option('solostream_cat_box_1'),'category')->term_id) ); ?>"><?php echo stripslashes(get_option('solostream_cat_box_1_title')); ?></a></span></h2>
+				<h2 class="feat-title"><span><a href="<?php echo esc_url(get_category_link(get_term_by('slug',get_option('solostream_cat_box_1'),'category')->term_id) ); ?>"><?php _e("press releases", "solostream"); ?></a></span></h2>
 
 <?php 
 $count = 1;
