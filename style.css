@@ -127,3 +127,9 @@ table h5 {
 #ag-created-by {
     display: none !important;
 }
+
+/* Fix Slider height because it jumps */
+/* fixed height for featured slides */
+#featured .slides .slide-container {
+   height: 315px
+}
