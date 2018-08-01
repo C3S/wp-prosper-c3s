@@ -48,8 +48,11 @@ $do_not_duplicate[] = $post->ID; ?>
 			</div>
 			<?php } ?>
 
-<?php /*====== Include the featured vids for C3S =======*/ ?>
-<?php include ('featured-vids.php'); ?>
+<?php /*====== Include the featured vids for C3S -> aktuell auskommentiert =======*/ ?>
+<?php /*======  include ('featured-vids.php'); =======*/ ?>
+
+<h2 class="feat-title"><span><a href="https://podcast.c3s.cc">Aktueller Podcast</a></span></h2>
+<iframe width="100%" height="300" src="https://podcast.c3s.cc/wp-content/plugins/podlove-podcasting-plugin-for-wordpress/lib/modules/podlove_web_player/player_v4/dist/share.html?episode=https://podcast.c3s.cc/?podlove_player4=44" frameborder="0" scrolling="no"></iframe>
 
 
 			<?php /*-- [ CATEGORY BOX 2 ] -- */ ?>

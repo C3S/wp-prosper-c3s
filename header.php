@@ -4,6 +4,8 @@
 
 <head profile="http://gmpg.org/xfn/11">
 
+<meta name="flattr:id" content="wexzv5">
+
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
