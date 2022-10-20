@@ -34,10 +34,6 @@
 <meta name="msapplication-TileColor" content="#00a300">
 <meta name="msapplication-TileImage" content="/wp-content/themes/wp-prosper-c3s/mstile-144x144.png">
 
-<!--[if lt IE 9]>
-<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-<![endif]-->
-
 <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 
 <?php wp_head(); ?>

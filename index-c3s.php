@@ -51,7 +51,7 @@ $do_not_duplicate[] = $post->ID; ?>
 <?php /*====== Include the featured vids for C3S -> aktuell auskommentiert =======*/ ?>
 <?php /*======  include ('featured-vids.php'); =======*/ ?>
 
-<span><a class="more-link a-sidebar center" href="https://podcast.c3s.cc">Klicke hier um unseren aktuellen Podcast anzuh&ouml;ren</a></span>
+<span><a class="more-link a-sidebar center" href="https://podcast.c3s.cc">Klicke hier um unseren letzten Podcast anzuh&ouml;ren</a></span>
 
 
 			<?php /*-- [ CATEGORY BOX 2 ] -- */ ?>
